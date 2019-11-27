@@ -1,0 +1,35 @@
+html, body {position: relative;height: 100%;}
+body{font:16px sans-serif,"Helvetica Neue",Helvetica,Arial,Verdana;-webkit-text-size-adjust:100%;}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+a{color:#000;text-decoration:none;}
+a:hover{color:#000;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+html,body{font-size:100px}
+@media screen and (max-width: 1440px) {
+  html,body{font-size:75px}
+}
+@media screen and (max-width: 1024px) {
+  html,body{font-size:50px}
+}
+input {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  text-shadow: none;
+  background: none;
+  display: inline-block;
+}
+
+/*去掉input number上下箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

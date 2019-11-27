@@ -1,0 +1,5 @@
+#app .swiper-container .mCustomScrollBox .mCSB_container {margin-left: 40px}
+#app .swiper-container .mCustomScrollBox .mCSB_scrollTools {width: 5px; left: 0; opacity: 1}
+#app .swiper-container .mCustomScrollBox .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #ffba14}
+#app .swiper-container .mCustomScrollBox .mCSB_scrollTools .mCSB_draggerRail{background-color: #fff;width: 1px}
+::-webkit-scrollbar{width: 0; }
